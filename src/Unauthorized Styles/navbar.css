@@ -1,0 +1,136 @@
+/* Desktop */
+.navbargrid-desktop {
+    position: absolute;
+    font-family: 'TT Norms Pro', sans-serif;
+    display: grid;
+    grid-template-columns: 175px 1fr 350px;
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: none;
+    top: 0;
+}
+
+.navbargrid-desktop ul {
+    list-style-type: none;
+}
+
+.navbargrid-desktop li {
+    display: inline-block;
+    margin-right: 15px;
+    transition: background-color 0.3s ease; /* Optional: Add a transition effect for a smoother hover effect */
+    padding: 10px 12.5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbargrid-desktop li:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust the RGBA values to darken the background color */
+}
+
+.navbargrid-desktop a {
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+}
+
+.navbargrid-desktop div {
+    margin: auto 0;
+}
+
+.loginregistercontainer {
+    color: rgb(52, 52, 52);
+}
+
+.reg {
+    background-color: rgb(27,105,199);
+    padding: 10px 12.5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.reg a {
+    color: white !important;
+}
+
+
+/* Tablet */ 
+.navbargrid-tablet {
+    position: absolute;
+    font-family: 'TT Norms Pro', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: none;
+    top: 0;
+}
+
+.navbargrid-tablet a {
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+}
+
+.navbar-bars {
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;   
+}
+
+.navbargrid-tablet div {
+    margin: auto 0;
+}
+
+.navbargrid-tablet ul {
+    list-style-type: none;
+}
+
+.navbargrid-tablet li {
+    display: inline-block;
+    margin-right: 15px;
+    transition: background-color 0.3s ease; /* Optional: Add a transition effect for a smoother hover effect */
+    padding: 10px 12.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(52, 52, 52);
+}
+
+.navbargrid-tablet .loginregistercontainer {
+    margin-right: 20px;
+}
+
+
+
+/* Mobile */
+.navbargrid-mobile {
+    position: absolute;
+    font-family: 'TT Norms Pro', sans-serif;
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: none;
+    top: 0;
+}
+
+.navbargrid-mobile a {
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+}
+
+.navbargrid-mobile h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.navbar-bars-mobile {
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin-block-start: 1.25em;
+    margin-block-end: 1.25em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: absolute;
+    right: 0px;
+}
