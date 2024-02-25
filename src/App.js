@@ -6,8 +6,11 @@ import Features from './Unauthorized Pages/features.js';
 import Blog from './Unauthorized Pages/blog.js';
 import Contact from './Unauthorized Pages/contact.js';
 
-/* import Login from './pages/loginpage.js'
-import Register from './pages/registerpage.js';
+/* Login and Register */
+import Login from './Unauthorized Pages/login.js'
+import Register from './Unauthorized Pages/register.js';
+
+/* 
 import Homepage from './components/authorized components/homepage.js';
 import Newround from './components/authorized components/newround.js';
 import { useState } from 'react';
@@ -31,9 +34,9 @@ function App() {
           <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
 
-          {/* Login and Register 
+          {/* Login and Register */}
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} /> */}
+          <Route path="/register" element={<Register />} /> 
 
           {/*Authorized */} {/*
           <Route path='/dashboard' element={<Homepage />} />
